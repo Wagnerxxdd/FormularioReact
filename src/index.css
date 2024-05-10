@@ -1,0 +1,264 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #4e3535;
+}
+
+body {
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-weight: 400px;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  background-color: hsl(0, 43%, 18%);
+}
+
+nav {
+  width: 100%;
+  height: 10vh;
+  background-color: black;
+  font-size: 24px;
+  font-family: "Montserrat", monospace;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 5px;
+  height: 100%;
+}
+
+nav > ul > li {
+  color: rgb(252, 252, 252);
+  display: inline;
+}
+
+nav > ul > li:hover {
+  background-color: #fffffffa;
+  color: #1b1b32;
+  cursor: pointer;
+}
+
+button {
+  font-size: 1.2em;
+  margin: 10px;
+  padding: 0.9em;
+  width: 12vw;
+  height: 7vh;
+  border-style: none;
+  border-radius: 50px;
+}
+
+li > a {
+  color: inherit;
+  text-decoration: none;
+  padding: 2em;
+}
+
+/* HOME */
+#home {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 80vw;
+  height: 79vh;
+  padding: 1em;
+  color: #000000;
+}
+
+#about {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+  height: 79vh;
+  padding: 1em;
+  color: #000000;
+}
+
+form {
+  max-width: 800px;
+  margin: 30px auto 0 auto;
+  padding: 20px;
+  color: #000000;
+  background-color: rgb(5, 5, 5);
+  background-image: url(https://br.freepik.com/fotos-gratis/desenvolvimento-de-aplicativo-movel_902452.htm#fromView=search&page=2&position=13&uuid=8134fc75-dc9b-4554-8e93-a850fc52bed4);
+  /*border: solid rgb(209, 102, 120);*/
+}
+
+h1,
+p {
+  margin: 1em auto;
+  text-align: center;
+}
+/* Estilizando o título */
+
+#title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Estilizando a descrição */
+#description {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Estilizando os rótulos */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Estilizando os campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #050505;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Estilizando os botões */
+button {
+  background-color: green;
+  color: #37c72a;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #fafafa;
+}
+
+/* Estilizando os radio buttons */
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Estilizando os checkboxes */
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Estilizando o container do formulário */
+#survey-form {
+  max-width: 200px;
+  margin: 0 auto;
+  padding: 200px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+/* Estilizando o título */
+#title {
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+/* Estilizando a descrição */
+#description {
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+/* Estilizando os rótulos */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Estilizando os campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #3f3f3f;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Estilizando os botões */
+button {
+  padding: 10px 20px;
+  background-color: #0c7c37;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #31a353;
+}
+
+#submit {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #31a353; /* Skin tone color */
+  border-color: rgb(83, 146, 111);
+  min-width: 300px;
+}
+
+#submit:hover {
+  background-color: #050505;
+  transition: background-color 0.5s ease, transform 0.5s ease,
+    box-shadow 0.5s ease;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+/* Estilizando os radio buttons */
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Estilizando os checkboxes */
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* Estilizando o container do formulário */
+#survey-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
